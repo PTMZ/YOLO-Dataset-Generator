@@ -17,8 +17,11 @@ python generate_images.py
 
 ## Output Example
 Example image:
+
 ![Example generated img](generated_imgs/000.png "Example generated img")
+
 Example output label txt:
+
 ```
 0 0.0828125 0.19583333333333333 0.153125 0.20416666666666666
 2 0.384375 0.2875 0.1921875 0.25625
