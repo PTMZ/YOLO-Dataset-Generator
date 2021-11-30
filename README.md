@@ -72,21 +72,22 @@ project
 └───datasets
 |   |
 │   └───custom_dataset
-│   |   └───images
-│   |   │   └───train
-│   |   │   |   |   000.png
-│   |   │   |   |   ...
-│   |   │   └───val
-│   |   │   |   |   100.png
-│   |   │   |   |   ...
-│   |   └───labels
-│   |   │   └───train
-│   |   │   |   |   000.txt
-│   |   │   |   |   ...
-│   |   │   └───val
-│   |   │   |   |   100.txt
-│   |   │   |   |   ...
-
+│       └───images
+│       │   └───train
+│       │   |   |   000.png
+│       │   |   |   ...
+│       │   └───val
+│       │       |   100.png
+│       │       |   ...
+│       │
+│       └───labels
+│           └───train
+│           |   |   000.txt
+│           |   |   ...
+│           └───val
+│               |   100.txt
+│               |   ...
+│
 ```
 
 ### 4) Run train script
